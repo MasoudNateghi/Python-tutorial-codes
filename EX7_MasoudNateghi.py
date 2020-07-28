@@ -7,3 +7,11 @@ def fibo (n):
         print('error')
     else:
         return fibo(n-1)+fibo(n-2)
+
+def EX7(n) :
+    L = []
+    for i in range(n+1):
+        L.append(fibo(i))
+    else:
+        print(L)
+EX7(5)
